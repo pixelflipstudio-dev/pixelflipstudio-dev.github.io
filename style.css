@@ -62,3 +62,21 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: -24px 0 32px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+.top a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.top a:last-child {
+  color: var(--muted);
+  font-weight: 400;
+}
