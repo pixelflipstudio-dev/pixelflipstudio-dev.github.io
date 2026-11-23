@@ -60,6 +60,18 @@
         session carries a random id that Sentry's software makes up on your phone. It isn't tied to
         you, and it lasts until you delete the app.
       </p>
+      <h2>Purchases</h2>
+      <p>
+        Book 21 Pro is bought through the App Store or Google Play. Apple or Google takes the
+        payment; we never see your card, your name or your Apple or Google account. To know who has
+        Pro, the app uses RevenueCat, a subscription service, with servers in the US. RevenueCat
+        receives a random id the app makes up on your phone, your purchases and their dates from
+        Apple or Google, the app's version, your phone's operating system and its version, your
+        country (worked out from your phone's IP address), and on iPhone whether you allowed apps to
+        ask to track you. For a founding player it also receives that you're a founder and the date
+        you first opened the app. It never receives your name, email, how you play, or anything you
+        type.
+      </p>
       <h2>On our website</h2>
       <p>
         book21.app counts visits the same anonymous way, through PostHog. It records the page, the
@@ -92,9 +104,12 @@
       <h2>Keeping and deleting</h2>
       <p>
         PostHog keeps the counts for up to a year, and Sentry keeps crash reports for up to 90 days.
-        Because nothing ties them to you, we can't find or delete one person's counts or reports;
-        turning them off or starting over is how you stop them. Deleting the app, or Settings › Your
-        data › Erase all data, removes everything the app saved on your phone.
+        RevenueCat keeps purchase records so a purchase can be restored on a new phone; to have
+        yours deleted, email us the order number from Apple's or Google's receipt and we'll ask
+        RevenueCat to remove it. Because nothing ties them to you, we can't find or delete one
+        person's counts or reports; turning them off or starting over is how you stop them. Deleting
+        the app, or Settings › Your data › Erase all data, removes everything the app saved on your
+        phone.
       </p>
       <h2>Age</h2>
       <p>Book 21 is for adults 18 and older and isn't meant for children.</p>
